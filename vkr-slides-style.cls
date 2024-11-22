@@ -19,7 +19,7 @@
 \setotherlanguage{english}
 
 % "Адекватная" работа с математикой в LaTeX
-\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools} 
+\usepackage{amsmath, amsfonts, amssymb, amsthm, mathtools}
 
 % Всякие полезные пакеты — таблицы, размер текста ssmall.
 \usepackage{multirow}
@@ -101,8 +101,9 @@
             \end{tabular}
             \vspace{15pt}
             \titlepage
-        \end{center} 
-    
+        \end{center}
+
+        \vspace{-15pt}
         {\scriptsize
             % У научного руководителя должна быть указана научная степень
             \textbf{Научный руководитель:} \my@title@advisor \\
@@ -110,7 +111,7 @@
             \ifthenelse{\equal{\my@title@consultant}{}}{}{\textbf{Консультант:}  \my@title@consultant} \\
         }
         \begin{center}
-            \vspace{-5pt}
+            \vspace{-15pt}
             \scriptsize{Санкт-Петербург\\
                 \the\year}
         \end{center}
