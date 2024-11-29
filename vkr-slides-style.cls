@@ -108,7 +108,7 @@
             % У научного руководителя должна быть указана научная степень
             \textbf{Научный руководитель:} \my@title@advisor \\
             % Консультанта может и не быть. Должна быть указана должность и ученая степень, если есть
-            \ifthenelse{\equal{\my@title@consultant}{}}{}{\textbf{Консультант:}  \my@title@consultant} \\
+            % \ifthenelse{\equal{\my@title@consultant}{}}{}{\textbf{Консультант:}  \my@title@consultant} \\
         }
         \begin{center}
             \vspace{-15pt}
